@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-image: url(/coverphoto.jpeg);
+    width: auto;
+    height: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(177, 228, 57);
+  }
+
+  header h1{
+    display: flex;
+    justify-content: center;
+  }
+
+  header p{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  header h1 {
+    font-size: 5em;
+    margin-bottom: 10px;
+    color: rgba(172, 35, 172, 0.979);
+  }
+  header p {
+    font-size: 2em;
+    margin: 35px;
+    color: rgba(172, 35, 172, 0.979);
+  }
+
+
+  nav {
+    width: auto;
+    height: 20px;
+    margin: 15px;
+    text-align: left;
+    padding: 10px 0;
+    border-radius: 8px;
+  }
+
+  nav a{
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+
+  nav a:hover{
+    color: blue;
+  }
+
+  section {
+    padding: 30px 20px;
+  }
+
+  section, .about{
+    font-size: 1.5em;
+  }
+
+
+  .services, .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  }
+
+
+  .service, .gallery img {
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+
+  .gallery img {
+    padding: 0;
+  }
+
+
+  form {
+    max-width: 500px;
+    margin: auto;
+  }
+
+
+  input, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+  footer {
+    background-color: #2d3436;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+  .socials a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+
+@media screen and (max-width:600px) {
+  body{
+    background-color: #deebee;
+  }
+  
+
+  header{
+    background-image: url(/New1.jpeg);
+    background-repeat: no-repeat;
+  }
+
+  header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+  }
+
+
+  header p{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+  
+  nav a{
+    color: rgb(231, 120, 120);
+  }
+
+ form input{
+  background-color: #f3ececd0;
+ }
+
+ form textarea{
+  background-color: #f3ececd0;
+ }
+}
